@@ -15,7 +15,12 @@ Exmaple images of the demo running:
 ![image](https://user-images.githubusercontent.com/44200079/144148773-c795ecd1-2bfb-466c-b0d6-641728f4b9f6.png)
 ![image](https://user-images.githubusercontent.com/44200079/144148794-bdbb4546-5f5c-4d6c-98f2-02c2949a191d.png)
 
+
+The fileCleaner will take PAT files and check to see if previous root data is in PAT files. 
+THe GenerateGT will take the PAT files and create the Ground Truth images if there is a data in the PAT file. 
+
 The previous work that this project is based on: 
 https://github.com/GatorSense/PlantRootSeg
 
 Where the original files for the training and evaluation code had come from: https://github.com/milesial/Pytorch-UNet
+
