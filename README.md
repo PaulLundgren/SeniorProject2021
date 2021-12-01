@@ -43,5 +43,5 @@ https://wandb.ai/plundgren/U-Net?workspace=user-plundgren
 The previous work that this project is based on: 
 https://github.com/GatorSense/PlantRootSeg
 
-Where the original files for the training and evaluation code had come from: https://github.com/milesial/Pytorch-UNet
+Where the original files for the training, evaluation, and ultiltiy code came from: https://github.com/milesial/Pytorch-UNet
 
