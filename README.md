@@ -10,6 +10,10 @@ A demo of the models can be ran from Demo.py or from Demo-jupyter.ipynb
 Due to GitHub size limitations, the models are stored on a Google Drive. The models can be downloaded from here:
 https://drive.google.com/file/d/17xJO8T_hJljmVOEtSTG4YHFgYjjZ-MJA/view?usp=sharing
 
+Exmaple images of the demo running:
+![image](https://user-images.githubusercontent.com/44200079/144148773-c795ecd1-2bfb-466c-b0d6-641728f4b9f6.png)
+![image](https://user-images.githubusercontent.com/44200079/144148794-bdbb4546-5f5c-4d6c-98f2-02c2949a191d.png)
+
 The previous work that this project is based on: 
 https://github.com/GatorSense/PlantRootSeg
 
