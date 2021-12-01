@@ -17,11 +17,17 @@ Exmaple images of the demo running:
 
 
 The fileCleaner will take PAT files and check to see if previous root data is in PAT files. 
+
 The GenerateGT will take the PAT files and create the Ground Truth images if there is a data in the PAT file. 
+
 For fileCleaner to work, the entire dataset should be given, since it realizes on comparing other PAT files.
+
 PAT files to be cleaned should be placed into "unclean/pat" and the files will output into "pat"
+
 GeneratorGT reads from "img" for the images and "pat" of the PAT files.
+
 Both the pat file and the image must have the same name for the GT to be made. 
+
 
 Before Cleaning:
 
