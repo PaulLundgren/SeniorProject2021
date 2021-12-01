@@ -19,6 +19,9 @@ Exmaple images of the demo running:
 The fileCleaner will take PAT files and check to see if previous root data is in PAT files. 
 The GenerateGT will take the PAT files and create the Ground Truth images if there is a data in the PAT file. 
 
+Training data from testing the models:
+https://wandb.ai/plundgren/U-Net?workspace=user-plundgren
+
 The previous work that this project is based on: 
 https://github.com/GatorSense/PlantRootSeg
 
