@@ -5,9 +5,8 @@
 import os
 import numpy as np
 import copy
-base_dir = 'C:\\Users\\Paul\\PatCleaning\\pat'  #pat location
-label_dir = 'C:\\Users\\Paul\\PatCleaning\\unclean' #
-out_dir = 'C:\\Users\\Paul\\PatCleaning\\complete'
+base_dir = 'pat'  #output location
+label_dir = 'unclean' #input location
 label_lt = list()
 list_lt = list()
 cleaned_list_lt = list()
@@ -16,6 +15,7 @@ count = 0
 remove_label = []
 empty_label = []
 area_list = list()
+print("Loading PAT files")
 for (dirpath, dirnames, filenames) in os.walk(label_dir):
     filename_lt = filenames
     label_lt += [os.path.join(dirpath, file) for file in filenames]
@@ -37,6 +37,7 @@ for item in label_lt:
 blanklist = [0, 0, 0, 0, 0, 0, 0, 0]
 cleaned_list_lt = copy.deepcopy(list_lt)
 cleaned_area_list = copy.deepcopy(area_list)
+print("Cleaning PAT files")
 for i in range(1,len(area_list)):
     tempone = list_lt[i-1]
     temptwo = cleaned_list_lt[i]
@@ -47,6 +48,7 @@ for i in range(1,len(area_list)):
             if(areaone[x] == areatwo[y]):
                 temptwo[y] = blanklist
     cleaned_list_lt[i] = temptwo
+print("making new PAT files")
 for item in label_lt:
     label = np.loadtxt(item, dtype='str')
     Rlocation = np.core.defchararray.find(label, 'R')

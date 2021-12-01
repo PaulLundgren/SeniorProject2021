@@ -141,9 +141,9 @@ def generate_mask(label, img_size, black_root=True):
 
 # import pdb; pdb.set_trace()
 
-image_dir = 'C:\\Users\\Paul\\PatCleaning\\img'
-label_dir = 'C:\\Users\\Paul\\PatCleaning\\pat'
-out_dir = 'C:\\Users\\Paul\\PatCleaning\\complete'
+image_dir = 'img'
+label_dir = 'pat'
+out_dir = 'complete'
 label_lt = list()
 count = 0
 remove_label = []
@@ -168,7 +168,7 @@ for item in label_lt:
             #GT_name = img_name.replace('.jpg', '.bmp') # get the new GT name and extension
             #GT_out_dir = os.path.join(out_dir, 'GT', GT_name)
             #GT = blank
-           # GT.save(GT_out_dir)
+           #GT.save(GT_out_dir)
             if not os.path.exists(img_out_dir):
                 os.makedirs(img_out_dir)
             shutil.copy(img_dir, img_out_dir)
